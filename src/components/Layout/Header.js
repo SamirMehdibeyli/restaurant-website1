@@ -8,6 +8,7 @@ import {
   Toolbar,
   Typography,
 } from "@mui/material";
+import Logo from "../../images/logo-white.svg";
 
 import MenuIcon from "@mui/icons-material/Menu";
 import { NavLink } from "react-router-dom";
@@ -27,22 +28,23 @@ const Header = () => {
         component="div"
         sx={{ flexGrow: 1, my: 2 }}
       >
+        <img src={Logo} alt="logo" height={"70"} width="200" />
       </Typography>
       <Divider />
       <ul className="mobile-navigation">
         <li>
           <NavLink activeClassName="active" to={"/"}>
-            Home
+            Ana Səhifə
           </NavLink>
         </li>
         <li>
-          <NavLink to={"/menu"}>Menu</NavLink>
+          <NavLink to={"/menu"}>Menyu</NavLink>
         </li>
         <li>
-          <NavLink to={"/about"}>About</NavLink>
+          <NavLink to={"/about"}>HAQQIMIZDA</NavLink>
         </li>
         <li>
-          <NavLink to={"/contact"}>Contact</NavLink>
+          <NavLink to={"/contact"}> Bizimlə əlaqə</NavLink>
         </li>
       </ul>
     </Box>
@@ -70,22 +72,23 @@ const Header = () => {
               component="div"
               sx={{ flexGrow: 1 }}
             >
+              <img src={Logo} alt="logo" height={"70"} width="250" />
             </Typography>
             <Box sx={{ display: { xs: "none", sm: "block" } }}>
               <ul className="navigation-menu">
                 <li>
                   <NavLink activeClassName="active" to={"/"}>
-                    Home
+                    Ana Səhifə
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink to={"/menu"}>Menu</NavLink>
+                  <NavLink to={"/menu"}>Menyu</NavLink>
                 </li>
                 <li>
-                  <NavLink to={"/about"}>About</NavLink>
+                  <NavLink to={"/about"}>Haqqımızda</NavLink>
                 </li>
                 <li>
-                  <NavLink to={"/contact"}>Contact</NavLink>
+                  <NavLink to={"/contact"}>Bizimlə əlaqə</NavLink>
                 </li>
               </ul>
             </Box>
