@@ -12,6 +12,10 @@
   text-decoration: none;
   color: white;
 }
+.active {
+  color: #b7a477 !important;
+  font-weight: bold !important;
+}
 .mobile-navigation {
   list-style: none;
 }
@@ -21,11 +25,12 @@
 .mobile-navigation li a {
   text-decoration: none;
   font-size: 1.4rem;
-  color: black;
+  color: #122F83;
 }
 img{
   width: 143px;
   height: 55px;
   vertical-align: top;
+  cursor: pointer;
   
 }

@@ -5,30 +5,31 @@
   align-items: left;
   flex-direction: column;
   background-position: center;
-  background-repeat: no-repeat;
   background-size: cover;
 }
 
 .headerContainer {
   width: auto;
-  margin-left: 30px;
+  margin-left: 18px;
+  margin-top: -390px;
 }
 .home .headerContainer h1 {
   justify-content: center;
   align-items: center;
   font-size: 70px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  color: black;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  text-transform: uppercase;
 }
 .home .headerContainer p {
   margin-top: 15px;
   padding: 0;
   font-size: 40px;
   font-weight: lighter;
-  color: black;
+  color: #fff;
 }
 .home .headerContainer button {
-  background-color: #121619;
+  background-color: #b7a477;
   margin-top: 20px;
   border: none;
   border-radius: 5px;
@@ -40,7 +41,7 @@
   font-size: 20px;
 }
 .headerContainer button:hover {
-  background-color: #07090a;
+  background-color: #122f83;
   cursor: pointer;
   transition: 0.3s ease-in;
 }
@@ -57,7 +58,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #121619;
+    background-color: #122f83;
     color: white;
   }
   .home .headerContainer h1 {
@@ -72,7 +73,7 @@
   }
   .headerContainer button {
     background-color: white;
-    color: #121619;
+    color: #122f83;
     margin-bottom: 30px;
   }
 }

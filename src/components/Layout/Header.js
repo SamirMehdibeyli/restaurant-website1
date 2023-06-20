@@ -8,6 +8,7 @@ import {
   Toolbar,
   Typography,
 } from "@mui/material";
+
 import Logo from "../../images/logo-white.svg";
 
 import MenuIcon from "@mui/icons-material/Menu";
@@ -41,7 +42,7 @@ const Header = () => {
           <NavLink to={"/menu"}>Menyu</NavLink>
         </li>
         <li>
-          <NavLink to={"/about"}>HAQQIMIZDA</NavLink>
+          <NavLink to={"/about"}>Haqqımızda</NavLink>
         </li>
         <li>
           <NavLink to={"/contact"}> Bizimlə əlaqə</NavLink>
@@ -52,7 +53,7 @@ const Header = () => {
   return (
     <>
       <Box>
-        <AppBar component={"nav"} sx={{ bgcolor: "black" }}>
+        <AppBar component={"nav"} sx={{ bgcolor: "#122F83" }}>
           <Toolbar>
             <IconButton
               color="inherit"

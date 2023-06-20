@@ -1,7 +1,7 @@
 import React from "react";
 import Layout from "../components/Layout/Layout";
 import { Link } from "react-router-dom";
-import Banner from "../images/banner.jpeg";
+import Banner from "../images/2banner.jpg";
 import '../styles/HomeStyles.css'
 
 function Home() {
@@ -9,10 +9,10 @@ function Home() {
     <Layout>
       <div className="home" style={{ backgroundImage: `url(${Banner})`}}>
         <div className="headerContainer">
-          <h1>Food Webiste</h1>
-          <p>Best Food In Azerbaijan</p>
+          <h1>Özəl təkliflər</h1>
+          <p>MADO RESTORANLARI</p>
           <Link to="./menu">
-            <button>Order Now</button>
+            <button>İndi sifariş et</button>
           </Link>
         </div>
       </div>

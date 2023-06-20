@@ -7,7 +7,8 @@ function About() {
     <Layout>
       <Box
         sx={{
-          my: 15,
+          my: 8,
+
           textAlign: "center",
           p: 2,
           "& h4": {
@@ -26,35 +27,47 @@ function About() {
           },
         }}
       >
-        <Typography variant="h3" p={2} color={{color: '#122F83'}}>Şirkətin tarixi</Typography>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat quod,
-          suscipit, aperiam totam autem culpa cum eveniet dolorum quasi est
-          perspiciatis laborum. Nam recusandae nihil quia odio voluptatibus
-          facere omnis facilis rerum? Ab eum beatae nobis reiciendis, qui
-          temporibus aliquid, nesciunt velit sed quam recusandae necessitatibus,
-          tempora maxime. Repellendus incidunt, maxime labore dolorum eos
-          aperiam unde? At veritatis nesciunt eos quas cupiditate blanditiis est
-          quam maiores, amet, soluta exercitationem voluptatum, veniam
-          assumenda? Ratione perferendis officiis deserunt nostrum aspernatur
-          sed asperiores! Earum sunt placeat ducimus sint, deleniti amet esse
-          saepe voluptatem commodi laudantium quibusdam repellat nobis libero at
-          consectetur adipisci ipsa.
+        <Typography variant="h3" p={2}  color={{ color: "#122F83" }}>
+          Şirkətin tarixi
+        </Typography>
+        <p mx={5}>
+          MADO-nun bir dünya brendinə çevrilmə yolundakı ilk əhəmiyyətli addımı
+          Yaşar şirniyyat evi ilə başlayır. 150 illik təcrübənin dünya
+          miqyasında bir brend kimi hərtərəfli və olduqca effektiv bir şəkildə
+          təmsil edilməsində Yaşar şirniyyat evi önəmli rol oynayır. Belə ki bu
+          məkan təbiətin comərdliyi ilə insan əməyinin və səbrinin dondurma
+          sevərlərlə görüşdüyü ilk məkana çevrilir. 1965-ci ildə Kahramanmaraşda
+          açılan buz fabriki bölgə üçün əhəmiyyətli olduğu qədər MADO üçün də
+          əhəmiyyətli olur. Kiçik dükan böyüdülür və istehsal gücü daha da
+          artırılır. Elə həmin ildən dükana "deep freze" soyuducularının
+          gətirilməsi sayəsində dondurma gecə-gündüz saxlanılmağa başlanılır. Bu
+          təkmilləşdirilmə prosesləri MADO-nun dadından və keyfiyyətindən heç
+          bir şey əskiltmir. MADO dondurmasının bugünkü məşhurluğa qovuşmasına
+          beşiklik edən şirniyyat evi 1980-ci ildə Trabzon küçəsində açılır.
+          Texnologiya ilə olan bu ilk görüşmənin ardından MADO bu gün dadından,
+          keyfiyyətindən, tərkibindən heç bir şey itirmədən dünya səviyyəsində
+          bir brendə çevrilib. Sözü gedən şirniyyat evi bölgəyə xas vasitələrlə
+          hazırlanan döymə dondurmasını təqdim edir. Bununla yanaşı
+          Kahramanmaraş mətbəxi və bölgə mədəniyyətini təmsil edən əl sənətləri
+          sərgisi vəzifəsini də öz öhdəsinə götürür. Bu şirniyyat evi həmçinin
+          ziyarətçi foto şəkillərlə divarlarını örtdüyü, ailə yadigarı olan
+          köhnə əşyaların sərgiləndiyi bir muzey kimi də qiymətlidir. Bu
+          xüsusiyyəti ilə bölgəni tanımaq istəyən yerli və xarici turistlərin
+          vaz keçilməz məkanı olan şirniyyat evində MADO dondurmasını məşhur
+          edən bir sirrin macərası da sərgilənir. Dünyada MADO dondurmasına
+          şöhrət gətirən "döymə ustalığı" Yaşar şirniyyat evinə qonaq olanlara
+          özünəməxsus şou ilə göstərilir. Dondurmanın sərt və qatı bir tərkibə
+          sahib olmasının ipucları folklorik məlumatlarla ötürülür.
         </p>
         <br />
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi,
-          deserunt libero reprehenderit cum sint fugit cumque temporibus modi
-          facere eveniet amet obcaecati ducimus harum velit maxime vel qui
-          voluptatibus quam odio corrupti saepe, voluptas dolorum quidem
-          tempore? Esse sapiente molestias minus enim quisquam dolorum eum culpa
-          ullam impedit velit quo, corporis ducimus numquam dignissimos
-          inventore maiores. Nam deleniti itaque nostrum neque dolorum dolores,
-          aliquam, voluptatum sapiente doloribus laborum perspiciatis ipsam, quo
-          ut nisi distinctio sunt nihil est blanditiis perferendis eveniet
-          nesciunt! Nostrum, voluptatum eveniet repellat vel officia deleniti
-          tempore voluptatibus perferendis esse eaque temporibus porro?
-          Aspernatur beatae deleniti illo autem!
+          MADO-nun məqsədi 150 illik tarixə malik dondurma ənənəsini gələcəyə
+          ötürməkdir. Bunu edərkən işə ilk başlama həyəcanını və həvəsini
+          itirməmək istəyi MADO-nun enerjisinin əsas mənbəyidir. Şəbəkəmizə
+          əlavə edilən hər yeni restoran xalis ləzzətin hər kəsə çatdırılması
+          istiqamətindəki növbəti uğurumuza çevrilir. Ənənə, müasir konsept,
+          dinamika... Bu üçünü eyni anda özündə əks etdirmək üçün MADO seçdiyi
+          prinsiplərə hər zaman sadiqdir.
         </p>
       </Box>
     </Layout>

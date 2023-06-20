@@ -18,13 +18,23 @@ import CallIcon from "@mui/icons-material/Call";
 function Contact() {
   return (
     <Layout>
-      <Box sx={{ my: 5, ml: 10, "& h4": { fontWeight: "bold", mb: 4} }}>
-        <Typography variant="h4">Contact My Restaurant</Typography>
+      <Box sx={{ my: 5, ml: 10, "& h4": { fontWeight: "bold", mb: 4 } }}>
+        <Typography variant="h4">
+          Bütün təklif və şikayətlərinizi bizə yazıb göndərmənizi xahiş edirik.
+        </Typography>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem odio
-          beatae ducimus magni nobis culpa praesentium velit expedita quae,
-          corrupti, pariatur inventore laboriosam consectetur modi impedit
-          error, repudiandae obcaecati doloribus.
+          MADO Restoranlar Şəbəkəsi daim öz qonaqlarını dinləməyə hazırdır.
+          Xidmət və keyfiyyət səviyyəmizin yüksəlməsi üçün daim onları dinləyir
+          və fikirlərinə əsasən öz üzərimizdə çalışırıq.
+          <br/> 
+          </p>
+
+          <p>
+
+          Bildirmək istərdik ki,
+          biz MADO Restoranlar Şəbəkəsi olaraq bütün təklif və iradlara daim
+          önəm veririk. Qonaqlarımızın daim xoş emosiyalarla bizdən ayrılması
+          üçün əlimizdən gələni etməyə hazırıq.
         </p>
       </Box>
       <Box
@@ -42,10 +52,10 @@ function Contact() {
             <TableHead>
               <TableRow>
                 <TableCell
-                  sx={{ bgcolor: "black", color: "white" }}
+                  sx={{ bgcolor: "#122F83", color: "white" }}
                   align="center"
                 >
-                  Contact Details
+                  Bizimlə əlaqə
                 </TableCell>
               </TableRow>
             </TableHead>
@@ -59,13 +69,13 @@ function Contact() {
               <TableRow>
                 <TableCell>
                   <MailIcon sx={{ color: "skyblue", pt: 1 }} />
-                  help@gmail.com
+                  info@mado.az
                 </TableCell>
               </TableRow>
               <TableRow>
                 <TableCell>
                   <CallIcon sx={{ color: "green", pt: 1 }} />
-                  12345678
+                  (+994 12) 310 10 30
                 </TableCell>
               </TableRow>
             </TableBody>

@@ -9,7 +9,7 @@ function Footer() {
   return (
     <>
       <Box
-        sx={{ textAlign: "center", bgcolor: "#1A1A19", color: "white", p: 3 }}
+        sx={{ textAlign: "center", bgcolor: "#122F83", color: "white", p: 3 }}
       >
         <Box
           sx={{

@@ -3,48 +3,62 @@ import Chola from "../images/chhola.jpg";
 import Idli from "../images/idli.jpg";
 import MasalaDosa from "../images/masala.jpg";
 import Paneer from "../images/paneer.jpg";
-import Gujrati from "../images/gujrati.jpeg";
+import Gujrati from "../images/gujrati.jpg";
 
 export const MenuList = [
   {
-    name: "Dosa",
+    name: "TOYUQ SENDVİÇ SET",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat, ab!",
+      "Tost çörək, toyuq flesi, kahı, pomidor, duzlu xiyar, kartof fri, yaşıl salat, mayonez, ketçup.",
     image: Dosa,
-    price: 200,
+    price: 10.5,
   },
   {
-    name: "Chola",
+    name: "TOYUQ GÖBƏLƏK SOUSU İLƏ",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat, ab!",
+      "Toyuq filesi, göbələk sousu, pomidor, sivri bibər, sote olunmuş tərəvəz, düyü plov, kartof fri, ballı xardal sousu, göyərti, ədviyyat.",
     image: Chola,
-    price: 250,
+    price: 14.5,
   },
   {
-    name: "Idli Sambhar",
+    name: "KAŞARLI MANQAL DÜRÜM",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat, ab!",
+      "Ət köftə, kaşar pendiri, rəngli bibər, lavaş tortiya, kartof fri, tərəvəzli düyü, texas sousu, mayonez, göyərti, yaşıl salat.",
     image: Idli,
-    price: 300,
+    price: 22.5,
   },
   {
-    name: "Masala Dosa",
+    name: "İSTİ SƏHƏR YEMƏYİ",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat, ab!",
+      "Pomidor–yumurta, siqara börəyi, hellim pendiri, kaşar pendiri, göbələk, dilim kartof, sucuq.",
     image: MasalaDosa,
-    price: 100,
+    price: 14.5,
   },
   {
-    name: "Paneer",
+    name: "CAN ƏTİ BÜKMƏ ACILI",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat, ab!",
     image: Paneer,
-    price: 400,
+    price: 12.5,
   },
   {
-    name: "Gujrati",
+    name: "TOYUQ GÖBƏLƏK SOUSU İLƏ",
+    description:
+      "Pomidor–yumurta, siqara börəyi, hellim pendiri, kaşar pendiri, göbələk, dilim kartof, sucuq.",
+    image: Gujrati,
+    price: 500,
+  },
+  {
+    name: "TOYUQ GÖBƏLƏK SOUSU İLƏ",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat, ab!",
+    image: Gujrati,
+    price: 500,
+  },
+  {
+    name: "TOYUQ GÖBƏLƏK SOUSU İLƏ",
+    description:
+      "Toyuq filesi, tortilla çörəyi, çəltik sousu, qarğıdalı, jalapeno bibər, çeddar pendiri, pomidor, sarımsaq, sivri bibər, qırmızı lobya, göyərti.",
     image: Gujrati,
     price: 500,
   },
